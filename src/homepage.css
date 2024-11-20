@@ -1,3 +1,42 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Navbar Left */
+.navbar-left h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navbar Right */
+.navbar-right {
+    display: flex;
+    gap: 15px; /* Add spacing between buttons */
+}
+
+/* Button Styling */
+.nav-button {
+    padding: 8px 16px;
+    background-color: #4c95af; /* Updated color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button Hover Effect */
+.nav-button:hover {
+    background-color: #377689; /* Slightly darker shade for hover */
+}
+
 /* Hero Section */
 .hero {
     text-align: center;
