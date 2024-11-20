@@ -44,6 +44,10 @@ function Homepage() {
         </div>
       </nav>
     </div>
+
+  <div className="homewrite">
+         <h1><b>Welcome to my Website...!</b></h1>
+  </div>
   );
 }
 
